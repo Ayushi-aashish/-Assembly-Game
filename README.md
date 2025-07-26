@@ -1,12 +1,67 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Capstone Project
+This is a React 19 application bootstrapped with Vite for ultra-fast development, and includes ESLint integration and hot module replacement. It serves as a capstone or final project built with a modern frontend toolchain.
 
-Currently, two official plugins are available:
+🚀 Features
+⚛️ React 19 (with JSX and HMR support)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡️ Vite for fast build and dev server
 
-## Expanding the ESLint configuration
+🎉 UI Effects using react-confetti
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ ESLint configured with React hooks and refresh plugins
+
+🧱 Modular and maintainable project structure
+
+📦 Project Structure
+php
+Copy
+Edit
+capstone/
+├── public/             # Static assets
+├── src/                # Source code
+│   ├── components/     # Reusable components
+│   ├── App.jsx         # Main app component
+│   └── main.jsx        # React DOM entry
+├── index.html          # HTML template
+├── package.json        # Project metadata and scripts
+└── vite.config.js      # Vite configuration
+🛠️ Installation
+Make sure you have Node.js ≥ 18 installed.
+
+bash
+Copy
+Edit
+# Clone the repository
+git clone <repo-url>
+cd capstone
+
+# Install dependencies
+npm install
+🧪 Available Scripts
+Script	Description
+npm run dev	Start the development server
+npm run build	Build the app for production
+npm run preview	Preview the production build
+npm run lint	Lint the code using ESLint
+
+✨ Dependencies
+react
+
+react-dom
+
+clsx — utility for conditionally joining classNames
+
+react-confetti — for celebration effects
+
+🧪 Dev Dependencies
+vite
+
+eslint, eslint-plugin-react-hooks, eslint-plugin-react-refresh
+
+@vitejs/plugin-react
+
+@types/react, @types/react-dom (for future TypeScript compatibility)
+
+📄 License
+MIT
