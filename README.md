@@ -1,5 +1,6 @@
 
 Capstone Project
+
 This is a React 19 application bootstrapped with Vite for ultra-fast development, and includes ESLint integration and hot module replacement. It serves as a capstone or final project built with a modern frontend toolchain.
 
 🚀 Features
